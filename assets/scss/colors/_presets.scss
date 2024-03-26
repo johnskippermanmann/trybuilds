@@ -1,0 +1,55 @@
+//All Preset color variables are here
+
+ // Defult color
+ $defult: #30c3cf;
+
+ $grey: #95a5a6;
+ $green:#97c93c;
+ $blue:#30c3cf;
+ 
+//Current Preset Declareation
+ $preset:  $defult;
+
+
+
+$break-767: 767px;
+$break-575: 575px;
+$break-768: 768px;
+$break-991: 991px;
+$break-992: 992px;
+$break-1199: 1199px;
+$break-1200: 1200px;
+
+@mixin respond-to($media) {
+  @if $media == flybuilds-767 {
+    @media only screen and (max-width: $break-767) { @content; }
+  }
+  @else if $media == flybuilds-575 {
+    @media only screen and (max-width: $break-575) { @content; }
+  }
+  @else if $media == flybuilds-768-991 {
+    @media (min-width:$break-768) and (max-width:$break-991) { @content; }
+  }
+  @else if $media == flybuilds-992-1199 {
+    @media (min-width:$break-992) and (max-width:$break-1199) { @content; }
+  }  
+  @else if $media == flybuilds-1200 {
+    @media only screen and (min-width: $break-1200) { @content; }
+  }
+}
+
+
+
+// .main-tittle{
+//   color: $text-color;
+//   font-size: 17px;      
+//   text-transform: uppercase;
+//   line-height: 26px;
+//   margin-bottom: 35px;
+//   font-weight: bold;  
+//   @include respond-to(flybuilds-767) {color:red;}
+//   @include respond-to(flybuilds-575) {color:green;}
+//   @include respond-to(flybuilds-768-991) {color:purple;}
+//   @include respond-to(flybuilds-992-1199) {color:grey;}
+//   @include respond-to(flybuilds-1200) {color:white;}
+// }

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188" height="58" viewBox="0 0 188 58">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="188" height="58" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_78" x="0" y="0" width="188" height="58" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="btn-loginwithgoogle" clip-path="url(#clip-path)">
+    <g id="Group_134" data-name="Group 134" transform="translate(-971 -663)">
+      <g transform="matrix(1, 0, 0, 1, 971, 663)" filter="url(#Rectangle_78)">
+        <rect id="Rectangle_78-2" data-name="Rectangle 78" width="170" height="40" rx="4" transform="translate(9 9)" fill="#fff"/>
+      </g>
+      <g id="search" transform="translate(989.417 682)">
+        <path id="Path_140" data-name="Path 140" d="M4.174,144.563l-.656,2.447-2.4.051a9.433,9.433,0,0,1-.069-8.793h0l2.133.391.934,2.12a5.62,5.62,0,0,0,.053,3.784Z" transform="translate(0 -133.182)" fill="#fbbb00"/>
+        <path id="Path_141" data-name="Path 141" d="M270.673,208.176a9.413,9.413,0,0,1-3.357,9.1h0l-2.687-.137-.38-2.374a5.612,5.612,0,0,0,2.415-2.866h-5.035v-3.725h9.045Z" transform="translate(-252.004 -200.518)" fill="#518ef8"/>
+        <path id="Path_142" data-name="Path 142" d="M44.7,314.788h0a9.42,9.42,0,0,1-14.19-2.881l3.052-2.5a5.6,5.6,0,0,0,8.071,2.868Z" transform="translate(-29.387 -298.027)" fill="#28b446"/>
+        <path id="Path_143" data-name="Path 143" d="M43,2.168l-3.051,2.5A5.6,5.6,0,0,0,31.692,7.6L28.625,5.086h0A9.419,9.419,0,0,1,43,2.168Z" transform="translate(-27.571)" fill="#f14336"/>
+      </g>
+      <text id="Login_with_Google" data-name="Login with Google" transform="translate(1018 697)" fill="#242424" font-size="12" font-family="WorkSans-Medium, Work Sans" font-weight="500"><tspan x="0" y="0">Login with Google</tspan></text>
+    </g>
+  </g>
+</svg>

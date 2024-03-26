@@ -1,0 +1,497 @@
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1800px) {
+  #hero-area .contents .head-title {
+    font-size: 35px;
+  }
+
+  .services-item .services-content h3 a {
+    font-size: 12px;
+  }
+
+  .title-hl {
+    font-size: 26px;
+  }
+
+  .why .content h3 {
+    font-size: 26px;
+  }
+
+  .counter-box {
+    margin-bottom: 30px;
+  }
+  /* .navbar-brand img.img-fluid {
+    margin-top: 20px;
+    margin-top: 1.25rem;
+    margin-left: 24px;
+    margin-left: 1.5rem
+  } */
+}
+/* tablets */
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .services-item .services-content h3 a {
+    font-size: 14px;
+  }
+
+  .services-item {
+    margin-bottom: 20px;
+  }
+
+  #pricing-table .title h3 {
+    font-size: 14px;
+  }
+
+  .section-title::before {
+    width: 25px;
+    height: 25px;
+  }
+  .section-title::after {
+    width: 25px;
+    height: 25px;
+  }
+}
+/* only small tablets */
+@media (min-width: 768px) and (max-width:1200px) {
+  .section-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+  .services-item .services-content h3 a {
+    font-size: 16px;
+  }
+
+  .bg-inverse {
+    background: rgba(0, 0, 0, 0.8) !important;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 0px 3px;
+  }
+
+  #about .sec-title h3 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .title-hl {
+    font-size: 30px;
+  }
+
+  .text-wrapper {
+    padding: 60px 30px;
+  }
+
+  .why .content h3 {
+    font-size: 30px;
+  }
+
+  #pricing-table .title h3 {
+    font-size: 14px;
+  }
+
+  .skill-area img {
+    margin-bottom: 30px;
+  }
+
+  .counter-box {
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-item-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .experience h4 {
+    font-size: 18px;
+  }
+
+  .testimonial-item {
+    padding: 10px;
+  }
+
+  .testimonial-item .content h2 {
+    font-size: 15px;
+  }
+
+  .slider-center img {
+    padding: 40px 60px;
+  }
+
+  .subscribes h4 {
+    font-size: 30px;
+  }
+
+  .footer-area .footer-title {
+    margin-top: 30px;
+  }
+
+  .contact-right-area {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .navbar-brand img {
+    width: 60%;
+  }
+
+  .section-title::before {
+    width: 25px;
+    height: 25px;
+  }
+  .section-title::after {
+    width: 25px;
+    height: 25px;
+  }
+  #contact .btn {
+    font-size: 18px;
+  }
+}
+
+/* mobile or only mobile */
+ @media (max-width: 767px) { 
+  .section-padding {
+    padding: 15px 0 0px 0;
+  }
+
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .title-hl {
+    font-size: 30px;
+  }
+
+  .bg-inverse {
+    padding: 0 15px;
+    background: #fff !important;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding: 0px 15px;
+    border: none;
+  }
+  .navbar-expand-md .navbar-nav .nav-link:hover {
+    border: none;
+  }
+
+  .top-nav-collapse .navbar-nav li.active a.nav-link {
+    border-bottom: 0px solid #30c3cf;
+  }
+
+  #hero-area .contents {
+    padding: 100px 0px 60px 0px;
+  }
+
+  #hero-area .contents .head-title {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  #hero-area .contents p {
+    font-size: 18px;
+  }
+
+  #hero-area .contents .btn {
+    margin: 10px 10px 10px 10px;
+  }
+
+  .text-wrapper {
+    padding: 60px 15px;
+  }
+
+  #about .sec-title h3 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .counter-box {
+    margin-bottom: 30px;
+  }
+
+  .why-item {
+    padding: 30px;
+  }
+
+  .why .content h3 {
+    font-size: 18px;
+  }
+
+  .why-content {
+    margin-left: 110px;
+  }
+
+  .feature-thumb {
+    padding: 10px;
+  }
+
+  .testimonial-item {
+    padding: 0;
+  }
+
+  .client-item-wrapper img {
+    width: 50%;
+  }
+
+  .slick-slider {
+    padding: 0;
+  }
+
+  .slider-center img {
+    padding: 60px 40px;
+  }
+
+  .subscribes h4 {
+    font-size: 22px;
+  }
+
+  .subscribes p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .skill-area img {
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-item-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .video-promo .video-promo-content h2 {
+    font-size: 20px;
+  }
+
+  .footer-right-contact .single-contact {
+    margin: 10px 7px;
+    padding: 3px 45px;
+  }
+
+  .footer-area .footer-titel {
+    margin-top: 30px;
+  }
+
+  .contact-right-area {
+    margin: 20px 0;
+  }
+
+  .contact-form-area h2 {
+    font-size: 14px;
+  }
+
+  .copyright .float-right {
+    float: left !important;
+  }
+
+  .bg-inverse {
+    background: rgba(0, 0, 0, 0.8) !important;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  }
+
+  .navbar-brand img {
+    padding: 30px;
+    width: 60%;
+  }
+
+  [class^=lni-], [class*=" lni-"] {
+    font-family: LineIcons, sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #hero-area .contents .head-title-two {
+    font-size: 16px;
+  }
+
+  #hero-area .contents .head-title {
+    font-size: 30px;
+  }
+
+  .navbar-expand-md .navbar-nav .active > .nav-link, .navbar-expand-md .navbar-nav .nav-link.active, .navbar-expand-md .navbar-nav .nav-link.open, .navbar-expand-md .navbar-nav .open > .nav-link {
+    color: #FFF !important;
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+  }
+
+  .navbar-expand-md .nav-link:hover, .navbar-expand-md .navbar-nav .active > .nav-link:hover {
+    border-bottom: 0px solid rgba(255, 255, 255, 0);
+  }
+}
+
+
+@media (max-width: 575px) {
+  footer ul li a {
+    font-size: 16px;
+    padding: 0px;
+  }
+
+  footer .copyright {
+    font-size: 16px;
+  }
+
+  footer .fab {
+    font-size: 26px;
+  }
+
+  #hero-area .contents .head-title-two {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom:12px
+  }
+
+  .btn-common-hero {
+    font-size: 18px;
+  }
+
+ .navbar-brand img {
+    width: 100px !important;
+    padding: 10px !important;
+  }  
+  .navbar-brand {
+    width: 50%;
+  }
+  
+  #contact p {
+    line-height: normal;
+    font-size: 17px;
+    color: #404040;
+    margin: 10px 0px 30px 0px;
+    font-weight: 300;
+    font-family: Work Sans,sans-serif;
+  }
+
+  #contact .btn {
+    font-size: 18px;
+  }
+
+  #pricing .title h3 {
+    font-size: 24px;
+  }
+
+  #pricing .table .pricing-header .price-value {
+    font-size: 20px;
+    margin-bottom: auto;
+  }
+
+  #hero-area .contents .head-title {
+    font-size: 24px;
+    line-height: normal;
+    margin-top: 50px;
+  }
+
+  #hero-area .contents .btn-common-hero {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom:12px
+  }
+  #hero-area .contents .demo-button {
+    font-size: 16px;
+    line-height: 24px;
+    /* margin-top: 16px; */
+    margin-bottom:12px
+}
+.btn .btn-common-hero .br {
+  height:6px;}
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .services-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-title {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight:500;
+    padding-top: 50px;
+  }
+  .section-title::before {
+    width: 25px;
+    height: 25px;
+  }
+  .section-title::after {
+    width: 25px;
+    height: 25px;
+  }
+
+  ._explaination h3 {
+    font-size: 20px;
+    padding-left:0;
+    margin-top: 32px;
+  }
+  ._explaination h3:before {
+    content: none;
+  }
+
+  .section-header p {
+    font-size: 14px;
+  }
+
+  nav.top-nav-collapse .navbar-brand img {
+    width: 90px;
+    transition: all ease-in 0.2s;
+  }
+
+  .navbar-expand-md .nav-link:hover,
+.navbar-expand-md .navbar-nav .active > .nav-link:hover {
+    border-bottom: 0px solid rgba(255, 255, 255, 0);
+    transform: translatex(10px);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .section-padding {
+    padding:  30px 10px 20px 10px;
+  }
+  /* .img-fluid {
+    max-width: 60%;
+  } */
+  .form-control{
+    font-weight:300;
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
+
+@media (min-width: 2560px) and (max-width: 2880px) {
+  #hero-area .contents .head-title {
+    font-size: 40px;
+  }
+
+  .services-item .services-content h3 a {
+    font-size: 14px;
+  }
+
+  .title-hl {
+    font-size: 30px;
+  }
+
+  .why .content h3 {
+    font-size: 30px;
+  }
+
+  .counter-box {
+    margin-bottom: 30px;
+  }
+}

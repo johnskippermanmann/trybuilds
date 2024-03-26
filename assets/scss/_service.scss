@@ -1,0 +1,141 @@
+/* Services Item */
+.services-item{
+	background: #fff;
+    margin: 0;
+    padding: 0px;
+	border-radius: 4px;
+	text-align: left;
+	transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+	.icon{
+		i{
+		    font-size: 42px;
+		    color: $preset;
+		}
+	}
+	.services-content{
+		h3{
+			a{
+				font-size: 18px;		
+    			color: #585b60;
+    			&:hover{
+    				color: $preset;
+    			}
+			}
+		}
+	}
+}
+
+#service{
+	position: relative;
+}
+/* Container Outside Shape */
+.container-outside {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 47.1%;
+	height: 100%;
+	background: $preset;
+	overflow: hidden;
+}
+.heading{
+	padding-left: 30px;
+}
+.d-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.dt-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+// Skills 
+.skill-area{
+	img{
+		border-radius: 4px;
+	}
+}
+.skills-section{
+	margin-top: 30px;
+	.progress-box{
+		h5{
+			color: #222222;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+	}
+	.progress{
+		background: #f9f9f9;
+    height: 10px;
+    margin-bottom: 30px;
+    .progress-bar{
+    	background: $preset;
+    }
+	}
+}
+
+
+._explaination h3 {
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 700;
+	padding-left: 36px;
+	&::before {
+		content: "";
+		position: absolute;
+		background-image: url(../images/flybuild-lineicon.svg);
+		width: 27px;
+		left: 0px;
+		background-repeat: no-repeat;
+		height: 40px;
+		z-index: 999;
+	}
+}
+/* ==========================================================================
+   Video promo Style
+   ========================================================================== */
+   .video-promo{
+    position: relative;
+    background: url(../images/bg-video.jpg);
+    	.overlay{
+    		background: rgba(0, 0, 0, 0.8)
+    	}
+      .video-promo-content{
+        color: #fff;
+        margin-bottom: 15px;
+        padding: 30px 0px;
+        .video-popup{
+          width: 80px;
+          height: 80px;
+          background: transparent;
+          line-height: 80px;
+          text-align: center;
+          border: 3px solid #fff;
+          color: #fff;
+          border-radius: 50%;
+          display: inline-block;
+          font-size: 26px;
+          &:hover{
+            background: #fff;
+            color: $preset;
+            box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+          }
+        }
+        h2{
+          color: #fff;
+          font-size: 30px;
+          text-transform: uppercase;
+        }
+        p{
+          color: #fff;
+        }
+      }
+     }
+
